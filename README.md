@@ -32,4 +32,12 @@ Moves the servo shaft to a specific *target* position at default speed.
 
 Moves the servo shaft to a specific *target* position in *duration* milliseconds.
 
+**void run()**
+
+Movement routine that must be placed inside the **loop()** without blocking code to be called as often as possible.
+
+**boolean isMoving()**
+
+Returns *true* if the servo is moving to a new target position and *false* when it is idle.
+
 

@@ -8,7 +8,7 @@ Tested with Arduino UNO but should work well in other platforms.
 ## Library usage
 ### Classes
 
-**VCServo** is the main class for controlling a single stepper motor.
+**VCServo** is the main class for controlling a single servomotor.
 
 ### Constructor
 
